@@ -1,6 +1,7 @@
 package com.sistemaboletas.modelos;
 
 import java.io.Serializable;
+import lombok.*;
 
 public class Asiento implements Serializable {
     private String zona;
