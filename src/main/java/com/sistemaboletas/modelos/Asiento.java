@@ -1,7 +1,12 @@
 package com.sistemaboletas.modelos;
 
 import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import lombok.*;
+
+
 
 public class Asiento implements Serializable {
     private String zona;
